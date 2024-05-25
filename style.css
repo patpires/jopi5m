@@ -92,3 +92,9 @@ nav .font-script {
 nav .font-script.subtitle {
   font-size: 150%; /* Ajustado para um tamanho mais harmonioso */
 }
+
+.custom-button {
+  padding: 16px 32px; /* Aumenta o padding para 16px vertical e 32px horizontal */
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  border-radius: 12px; /* Ajusta o arredondamento dos cantos */
+}
