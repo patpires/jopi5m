@@ -55,12 +55,21 @@
   margin: 20px auto;
 }
 
-#wordDisplay, #wrongLetters {
+#wordDisplay {
   font-size: 62px; /* Aumentado para maior destaque */
   font-weight: bold;
   color: #1a202c;
   margin-top: 20px;
 }
+
+#wrongLetters {
+  font-size: 62px; /* Aumentado para maior destaque */
+  font-weight: bold;
+  text-decoration: line-through;
+  color: #ff0000;
+  margin-top: 20px;
+}
+
 
 #hangmanCanvas {
   border: 2px solid;
