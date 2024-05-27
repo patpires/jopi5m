@@ -56,7 +56,7 @@
 }
 
 #wordDisplay, #wrongLetters {
-  font-size: 32px; /* Aumentado para maior destaque */
+  font-size: 62px; /* Aumentado para maior destaque */
   font-weight: bold;
   color: #1a202c;
   margin-top: 20px;
