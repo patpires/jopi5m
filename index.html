@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html "pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>Joana - 5 meses</title>
   <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/patpires/Jojo2meses/main/favicon.ico">
   <link href="style.css" rel="stylesheet">
@@ -9,7 +10,7 @@
     body { background: url('https://raw.githubusercontent.com/patpires/jopi4m/main/bg.png'); background-size: cover; }
     #wordDisplay, #wrongLetters { font-size: 32px; font-weight: bold; color: #1a202c; margin-top: 20px; }
   </style>
-
+</head>
 <body class="bg-gray-100">
   <noscript>Habilite o Javascript para rodar o App</noscript>
   <nav class="bg-black p-4">
@@ -18,7 +19,7 @@
       <div class="font-script text-white font-bold subtitle" style="font-size: 200%; background-color: black; text-align: center; width: 100%;">Fique craque no universo de JoPi, treinando nesse joguinho!<br></br></div>
     </div>
   </nav>
-  <div id="lettersContainer" class="flex justify-center mt-4"></div>
+
   <div class="container mx-auto mt-8 min-h-screen text-center">
     <div id="gameContainer" class="text-center">
       <canvas id="hangmanCanvas" width="200" height="200" class="mx-auto" style="border:2px solid; margin-top:20px;"></canvas>
@@ -27,6 +28,7 @@
       <button id="startGame" class="bg-blue-500 hover:bg-blue-700 text-white font-bold custom-button">Iniciar Jogo</button>
     </div>
   </div>
+  <div id="lettersContainer" class="flex justify-center mt-4"></div>
   <script src="script.js"></script>
 </body>
 </html>
